@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 25px;
+    background: yellow;
+    border: 2px solid lightblue;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.description {
+    font-size: 20px;
+}
+.heading {
+    font-size: 40px;
+}
